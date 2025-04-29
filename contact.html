@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - Aventura Total</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="cabecera">
+        <div class="container">
+            <div class="logo">
+                <img src="media/logo.png" alt="Aventura Total Logo">
+                <h1>Aventura Total</h1>
+                <p class="slogan">Todo para tu próxima aventura</p>
+            </div>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="productos.html">Productos</a></li>
+                    <li><a href="nosotros.html">Sobre Nosotros</a></li>
+                    <li><a href="contact.html" class="active">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="contact-principal">
+            <div class="container">
+                <h2>Contacta con Nosotros</h2>
+                <p>Estamos aquí para ayudarte en lo que necesites</p>
+            </div>
+        </section>
+
+        <section class="contact-contenedor">
+            <div class="container">
+                <div class="contact-informacion">
+                    <h3>Información de Contacto</h3>
+                    <p><strong>Dirección:</strong> Calle Aventura, 123, 23002 Jaén</p>
+                    <p><strong>Teléfono:</strong> +34 123 456 789</p>
+                    <p><strong>Email:</strong> info@aventuratotal.com</p>
+                    <p><strong>Horario:</strong> Lunes a Viernes: 9:00 - 20:00 | Sábados: 10:00 - 14:00</p>
+
+                    <div class="mapa">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d25233.821928561585!2d-3.7912576000000002!3d37.76125785!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2ses!4v1745606578174!5m2!1ses!2ses" width="1000" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>                    </div>
+                </div>
+
+                <div class="contact-formulario">
+                    <h3>Envíanos un Mensaje</h3>
+                    <form action="#" method="post">
+                        <div class="formulario-grupo">
+                            <label for="name">Nombre:</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="formulario-grupo">
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="formulario-grupo">
+                            <label for="product">Producto de Interés (opcional):</label>
+                            <select id="product" name="product">
+                                <option value="">Selecciona un producto</option>
+                                <option value="montaña">Equipamiento de Montaña</option>
+                                <option value="caza">Equipamiento de Caza</option>
+                                <option value="pesca">Equipamiento de Pesca</option>
+                                <option value="ropa">Ropa Técnica</option>
+                                <option value="otro">Otro</option>
+                            </select>
+                        </div>
+                        <div class="formulario-grupo">
+                            <label for="message">Mensaje:</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn">Enviar Mensaje</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-contenido">
+                <div class="footer-seccion">
+                    <h3>Contacto</h3>
+                    <p>info@aventuratotal.com</p>
+                    <p>+34 123 456 789</p>
+                </div>
+                <div class="footer-seccion">
+                    <h3>Horario</h3>
+                    <p>Lunes a Viernes: 9:00 - 20:00</p>
+                    <p>Sábados: 10:00 - 14:00</p>
+                </div>
+                <div class="footer-seccion">
+                    <h3>Enlaces Rápidos</h3>
+                    <ul>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="productos.html">Productos</a></li>
+                        <li><a href="nosotros.html">Sobre Nosotros</a></li>
+                        <li><a href="contact.html">Contacto</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 Aventura Total. Todos los derechos reservados. | Diseñado por Carlos</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
