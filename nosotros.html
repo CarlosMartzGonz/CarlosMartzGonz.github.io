@@ -5,31 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sobre Nosotros - Aventura Total</title>
     <link rel="stylesheet" href="css/styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans&display=swap" rel="stylesheet">
-    <style>
-        html, body {
-            height: 100%;
-        }
-        body {
-            display: flex;
-            flex-direction: column;
-            min-height: 100vh;
-        }
-        main {
-            flex: 1;
-        }
-        .footer {
-            margin-top: auto;
-        }
-    </style>
+    <link rel="stylesheet" href="css/styles_nosotros.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
     <header class="cabecera">
         <div class="container">
             <div class="logo">
                 <img src="media/logo.png" alt="Aventura Total Logo">
-                <h1>Aventura Total</h1>
-                <p class="slogan">Todo para tu próxima aventura</p>
+                <div>
+                    <h1>Aventura Total</h1>
+                    <p class="slogan">Todo para tu próxima aventura</p>
+                </div>
             </div>
             <nav class="main-nav">
                 <ul>
@@ -37,6 +25,7 @@
                     <li><a href="productos.html">Productos</a></li>
                     <li><a href="nosotros.html" class="active">Sobre Nosotros</a></li>
                     <li><a href="contact.html">Contacto</a></li>
+                    <li><a href="terminos.html">Términos</a></li>
                 </ul>
             </nav>
         </div>
@@ -45,8 +34,8 @@
     <main>
         <section class="sobre-principal">
             <div class="container">
-                <h2>Sobre Aventura Total</h2>
-                <p>Nuestra pasión por los deportes al aire libre nos impulsa cada día</p>
+                <h2>Nuestra Pasión por la Aventura</h2>
+                <p>Desde 2015, equipando a los aventureros más exigentes con los mejores productos</p>
             </div>
         </section>
 
@@ -54,57 +43,134 @@
             <div class="container">
                 <div class="sobre-historia">
                     <h3>Nuestra Historia</h3>
-                    <p>Fundada en 2010 por un grupo de entusiastas de los deportes de aventura, Aventura Total comenzó como una pequeña tienda local y ha crecido hasta convertirse en un referente en el sector.</p>
-                    <p>Nuestro objetivo siempre ha sido el mismo: proporcionar equipamiento de calidad para que nuestros clientes puedan disfrutar de sus aventuras con total seguridad y comodidad.</p>
+                    <p>Fundada en 2015 por un grupo de entusiastas de los deportes de aventura, Aventura Total comenzó como una pequeña tienda local en las montañas de Asturias. Lo que empezó como un modesto proyecto entre amigos, pronto se convirtió en un referente en el sector gracias a nuestro compromiso con la calidad y el servicio personalizado.</p>
+                    <p>Hoy, con más de una década de experiencia, contamos con tres tiendas físicas y una plataforma online que atiende a clientes en toda Europa. Pero nuestra esencia sigue siendo la misma: la pasión por la naturaleza y el deporte al aire libre.</p>
                 </div>
 
                 <div class="sobre-mision">
-                    <h3>Misión y Valores</h3>
+                    <h3>Nuestra Filosofía</h3>
                     <ul>
-                        <li><strong>Calidad:</strong> Seleccionamos cuidadosamente cada producto que vendemos.</li>
-                        <li><strong>Experiencia:</strong> Nuestro equipo está formado por expertos en cada deporte.</li>
-                        <li><strong>Sostenibilidad:</strong> Nos comprometemos con el medio ambiente.</li>
-                        <li><strong>Servicio:</strong> Atención personalizada para cada cliente.</li>
+                        <li><strong>Calidad garantizada:</strong> Seleccionamos cuidadosamente cada producto que vendemos, probándolo en condiciones reales antes de ofrecerlo a nuestros clientes.</li>
+                        <li><strong>Experiencia real:</strong> Nuestro equipo está formado por profesionales activos en cada deporte que cubrimos.</li>
+                        <li><strong>Sostenibilidad:</strong> Nos comprometemos con el medio ambiente promoviendo productos ecológicos y prácticas responsables.</li>
+                        <li><strong>Servicio personalizado:</strong> Ofrecemos asesoramiento técnico gratuito y planes de equipamiento adaptados.</li>
+                        <li><strong>Comunidad:</strong> Organizamos eventos, salidas grupales y talleres formativos.</li>
                     </ul>
                 </div>
+            </div>
+        </section>
 
-                <div class="sobre-team">
-                    <h3>Nuestro Equipo</h3>
-                    <div class="plantilla">
-                        <div class="miembro">
-                            <img src="https://via.placeholder.com/150" alt="Miembro del equipo">
-                            <h4>Carlos González</h4>
-                            <p>Especialista en montaña</p>
-                            <p>Experta en pesca</p>
-                            <p>Especialista en caza</p>
-                        </div>
+        <section class="estadisticas">
+            <div class="container">
+                <h3>En Números</h3>
+                <div class="estadisticas-container">
+                    <div class="estadistica-item">
+                        <div class="numero">12+</div>
+                        <div class="texto">Años de experiencia</div>
+                    </div>
+                    <div class="estadistica-item">
+                        <div class="numero">5,000+</div>
+                        <div class="texto">Productos testados</div>
+                    </div>
+                    <div class="estadistica-item">
+                        <div class="numero">50+</div>
+                        <div class="texto">Marcas colaboradoras</div>
+                    </div>
+                    <div class="estadistica-item">
+                        <div class="numero">25+</div>
+                        <div class="texto">Eventos anuales</div>
                     </div>
                 </div>
             </div>
         </section>
+
+        <section class="sobre-contenido">
+            <div class="container">
+                <div class="sobre-team">
+                    <h3>Conoce a Nuestro Equipo</h3>
+                    <div class="plantilla">
+                        <div class="miembro">
+                            <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-1.2.1&auto=format&fit=crop&w=300&q=80" alt="Carlos González">
+                            <h4>Carlos Martinez</h4>
+                            <p>Fundador & CEO</p>
+                            <p>Guía de montaña UIAGM</p>
+                            <p>Especialista en alpinismo</p>
+                        </div>
+                        <div class="miembro">
+                            <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-1.2.1&auto=format&fit=crop&w=300&q=80" alt="María Rodríguez">
+                            <h4>María Rodríguez</h4>
+                            <p>Directora Comercial</p>
+                            <p>Experta en ciclismo MTB</p>
+                            <p>Triatleta profesional</p>
+                        </div>
+                        <div class="miembro">
+                            <img src="https://images.unsplash.com/photo-1542190891-2093d38760f2?ixlib=rb-1.2.1&auto=format&fit=crop&w=300&q=80" alt="Javier Martín">
+                            <h4>Javier Martín</h4>
+                            <p>Jefe de Compras</p>
+                            <p>Espeleólogo certificado</p>
+                            <p>Instructor de escalada</p>
+                        </div>
+                        <div class="miembro">
+                            <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixlib=rb-1.2.1&auto=format&fit=crop&w=300&q=80" alt="Ana López">
+                            <h4>Ana López</h4>
+                            <p>Responsable de Sostenibilidad</p>
+                            <p>Bióloga ambiental</p>
+                            <p>Guía de senderismo</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="sobre-compromiso">
+                    <h3>Nuestro Compromiso</h3>
+                    <p>En Aventura Total no solo vendemos equipamiento, compartimos un estilo de vida. Por eso:</p>
+                    <ul>
+                        <li>
+                            <i class="fas fa-check-circle"></i>
+                            <strong>Garantía de satisfacción:</strong> Si no estás contento con tu compra, te devolvemos tu dinero.
+                        </li>
+                        <li>
+                            <i class="fas fa-check-circle"></i>
+                            <strong>Talleres gratuitos:</strong> Organizamos regularmente talleres de mantenimiento y uso de equipos.
+                        </li>
+                        <li>
+                            <i class="fas fa-check-circle"></i>
+                            <strong>Programa de recompra:</strong> Te compramos tu equipo usado cuando quieras renovarlo.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
     </main>
+
 
     <footer class="footer">
         <div class="container">
             <div class="footer-contenido">
                 <div class="footer-seccion">
                     <h3>Contacto</h3>
-                    <p>info@aventuratotal.com</p>
-                    <p>+34 123 456 789</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Calle Aventura, 123 - 23002 Jaén</p>
+                    <p><i class="fas fa-envelope"></i> info@aventuratotal.com</p>
+                    <p><i class="fas fa-phone"></i> +34 123 456 789</p>
                 </div>
                 <div class="footer-seccion">
                     <h3>Horario</h3>
-                    <p>Lunes a Viernes: 9:00 - 20:00</p>
-                    <p>Sábados: 10:00 - 14:00</p>
+                    <p><strong>Lunes a Viernes:</strong> 9:00 - 20:00</p>
+                    <p><strong>Sábados:</strong> 10:00 - 14:00</p>
+                    <p><strong>Domigos:</strong> Cerrado</p>
                 </div>
                 <div class="footer-seccion">
-                    <h3>Enlaces Rápidos</h3>
-                    <ul>
-                        <li><a href="index.html">Inicio</a></li>
-                        <li><a href="productos.html">Productos</a></li>
-                        <li><a href="nosotros.html">Sobre Nosotros</a></li>
-                        <li><a href="contact.html">Contacto</a></li>
-                    </ul>
+                    <h3>Servicios</h3>
+                    <a href="nosotros.html"> Asesoramiento personalizado</a>
+                    <a href="nosotros.html"> Alquiler de equipo</a>
+                    <a href="nosotros.html"> Talleres formativos</a>
+                    <a href="nosotros.html"> Eventos y salidas</a>
+                </div>
+                <div class="footer-seccion">
+                    <h3>Legal</h3>
+                    <a href="terminos.html"> Términos y condiciones</a>
+                    <a href="terminos.html"> Política de privacidad</a>
+                    <a href="terminos.html"> Política de cookies</a>
+                    <a href="terminos.html"> Aviso legal</a>
                 </div>
             </div>
             <div class="copyright">

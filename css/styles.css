@@ -221,19 +221,22 @@ a {
 }
 
 .product-image {
-    height: 200px;
+    height: 250px; 
     overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .product-image img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    transition: transform 0.5s ease;
+    max-height: 100%;
+    width: auto;
+    object-fit: contain;
 }
 
+
 .product-producto:hover .product-image img {
-    transform: scale(1.1);
+    transform: scale(1.4);
 }
 
 .product-producto h3 {
@@ -525,3 +528,5 @@ main {
         max-height: 100%;
     }
 }
+
+
